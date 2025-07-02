@@ -1,0 +1,136 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.skill-category h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+}
+
+.skill-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.skill-item i {
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 24px;
+  text-align: center;
+}
+
+.skill-item span {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.skills-highlight {
+  text-align: center;
+}
+
+.skills-highlight h3 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-family: 'Courier New', monospace;
+}
+
+.strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.strength-item {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', monospace;
+}
+
+.strength-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.strength-item i {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.strength-item h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  font-family: 'Courier New', monospace;
+}
+
+.strength-item p {
+  color: #cccccc;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  
+  .strengths-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skill-item {
+    padding: 0.8rem;
+  }
+  
+  .skill-item i {
+    font-size: 1.3rem;
+  }
+  
+  .skill-item span {
+    font-size: 0.9rem;
+  }
+} 
