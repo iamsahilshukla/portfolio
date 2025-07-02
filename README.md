@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 
 ## 🚀 Live Demo
 
-Visit my portfolio: [https://sahilshukla2001.github.io/portfolio](https://sahilshukla2001.github.io/portfolio)
+Visit my portfolio: [https://iamsahilshukla.github.io/portfolio](https://iamsahilshukla.github.io/portfolio)
 
 ## ✨ Features
 
@@ -41,7 +41,7 @@ Visit my portfolio: [https://sahilshukla2001.github.io/portfolio](https://sahils
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sahilshukla2001/portfolio.git
+git clone https://github.com/iamsahilshukla/portfolio.git
 cd portfolio
 ```
 
@@ -135,6 +135,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Email**: iamsahilshukla@gmail.com
 - **Phone**: +91 82991 83395
 - **LinkedIn**: [Sahil Shukla](https://www.linkedin.com/in/sahil-shukla)
+- **GitHub**: [@iamsahilshukla](https://github.com/iamsahilshukla)
 - **Location**: Delhi, India
 
 ## 🙏 Acknowledgments

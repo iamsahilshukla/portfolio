@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
               <a href="https://www.linkedin.com/in/sahil-shukla" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://github.com/sahilshukla2001" title="GitHub" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/iamsahilshukla" title="GitHub" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
               <a href="tel:+918299183395" title="Phone">
