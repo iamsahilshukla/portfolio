@@ -32,7 +32,7 @@ const About: React.FC = () => {
             <div className="card animate-on-scroll">
               <h3><i className="fas fa-user-tie"></i> Professional Summary</h3>
               <p>
-                I'm a passionate software engineer with 3+ years of experience architecting and 
+                I'm a passionate software engineer with 4+ years of experience architecting and 
                 scaling mission-critical applications. My expertise spans from functional programming 
                 with Haskell/PureScript to modern cloud-native development with AWS services. 
                 I've successfully led teams of 4+ developers, optimized system performance by 80%, 
